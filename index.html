@@ -9,6 +9,7 @@
 		<title>Stellar by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -19,10 +20,14 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<span class="logo"><img src="images/logo.svg" alt="" /></span>
+						<span class="logo">
+							<i class="fas fa-dice-d6 very-big-icon"></i>
+						</span>
 						<h1>Isak Leon</h1>
-						<p>Software Engineer.<br />
-						<a href="https://twitter.com/ajlkn">github</a> and <a href="https://html5up.net">LinkedIn</a></p>
+						<p>Software Engineer. <br />
+							<a href="https://github.com/leon-i" target="_blank" class="icon brands fa-github nav-icon"><span class="label">GitHub</span></a>
+							<a href="#" class="icon brands fa-linkedin nav-icon"><span class="label">LinkedIn</span></a>
+						</p>
 					</header>
 
 				<!-- Nav -->
@@ -53,7 +58,7 @@
 											I am constantly searching for new skills to learn and ways to improve my code.
 										</p>
 										<ul class="actions">
-											<li><a href="generic.html" class="button">Resume</a></li>
+											<li><a href="generic.html" class="button primary">Resume</a></li>
 										</ul>
 									</div>
 									<span class="image"><img src="images/pic01.jpg" alt="" /></span>
@@ -64,37 +69,52 @@
 							<section id="first" class="main special">
 								<header class="major">
 									<h2>Skills</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+									<p>Check out what's in my toolbelt.</p>
 								</header>
 								<ul class="statistics">
 									<li class="style1">
-										<span class="icon solid fa-code-branch"></span>
-										<strong>5,120</strong> Etiam
+										<i class="skill-icon devicon-ruby-plain"></i>
+										<strong>Ruby</strong>
+										<i class="skill-icon devicon-javascript-plain"></i>
+										<strong>Javascript</strong>
+										<i class="skill-icon devicon-html5-plain"></i>
+										<strong>HTML5</strong>
+										<i class="skill-icon devicon-css3-plain"></i>
+										<strong>CSS3</strong>
 									</li>
 									<li class="style2">
-										<span class="icon fa-folder-open"></span>
-										<strong>8,192</strong> Magna
+										<i class="skill-icon devicon-react-original"></i>
+										<strong>React</strong>
+										<img src="images/redux_logo.png" alt="redux-logo" class="skill-icon-img">
+										<strong>Redux</strong>
+										<i class="skill-icon devicon-jquery-plain"></i>
+										<strong>jQuery</strong>
+										<i class="skill-icon devicon-webpack-plain"></i>
+										<strong>Webpack</strong>
 									</li>
 									<li class="style3">
-										<span class="icon solid fa-signal"></span>
-										<strong>2,048</strong> Tempus
+										<i class="skill-icon devicon-rails-plain"></i>
+										<strong>Rails</strong>
+										<i class="skill-icon devicon-express-original"></i>
+										<strong>Express</strong>
+										<i class="skill-icon devicon-nodejs-plain"></i>
+										<strong>Node.js</strong>
 									</li>
 									<li class="style4">
-										<span class="icon solid fa-laptop"></span>
-										<strong>4,096</strong> Aliquam
+										<i class="skill-icon devicon-amazonwebservices-original"></i>
+										<strong>AWS</strong>
+										<i class="skill-icon devicon-mongodb-plain"></i>
+										<strong>MongoDB</strong>
+										<i class="skill-icon devicon-postgresql-plain"></i>
+										<strong>PostgreSQL</strong>
 									</li>
 									<li class="style5">
-										<span class="icon fa-gem"></span>
-										<strong>1,024</strong> Nullam
+										<i class="skill-icon devicon-git-plain"></i>
+										<strong>Git</strong>
+										<i class="skill-icon devicon-heroku-original"></i>
+										<strong>Heroku</strong>
 									</li>
 								</ul>
-								<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="generic.html" class="button">Learn More</a></li>
-									</ul>
-								</footer>
 							</section>
 
 						<!-- Portfolio -->
@@ -104,7 +124,7 @@
 								</header>
 								<ul class="features">
 									<li>
-										<span class="icon solid major style1 fa-code"></span>
+										<img src="images/viewtube.jpg" alt="viewtube-img" class="project-img">
 										<h3>ViewTube</h3>
 										<p>Fullstack YouTube clone. Backend built with Ruby on Rails, PostgreSQL, AWS S3. 
 											Frontend built with React and Redux.
@@ -112,26 +132,50 @@
 											Features include comments built with Rails polymorphic associations, video/thumbnail upload, 
 											as well as video search by title and uploader.
 										</p>
+										<div class="project-links flex">
+											<div class="project-link">
+												<a href="https://viewtubeapp.herokuapp.com/#/" target="_blank" class="button primary small fit">Live</a>
+											</div>
+											<div class="project-link">
+												<a href="https://github.com/leon-i/ViewTube" target="_blank" class="button small fit">Repo</a>
+											</div>
+										</div>
 									</li>
 									<li>
-										<span class="icon major style3 fa-copy"></span>
+										<img src="images/divekicker.jpg" alt="divekicker-img" class="project-img">
 										<h3>Divekicker</h3>
 										<p>Retro action-platformer/infinite runner built using vanilla Javascript and HTML5 Canvas.
 											Features include custom physics, sprites, and animations.
 										</p>
+										<div class="project-links flex">
+											<div class="project-link">
+												<a href="https://leon-i.github.io/Divekicker/" target="_blank" class="button primary small fit">Live</a>
+											</div>
+											<div class="project-link">
+												<a href="https://github.com/leon-i/Divekicker" target="_blank" class="button small fit">Repo</a>
+											</div>
+										</div>
 									</li>
 									<li>
-										<span class="icon major style5 fa-gem"></span>
+										<img src="images/streamlined.jpg" alt="streamlined-img" class="project-img">
 										<h3>Streamlined</h3>
 										<p>Service that provides the streaming location for a searched Movie/TV Show. 
 											Built using MERN stack (MongoDB, Express, React, Node.js). Features include 
 											search coverage for shows/movies on Netflix, Hulu, HBO, and Amazon Prime Video.
 										</p>
+										<div class="project-links flex">
+											<div class="project-link">
+												<a href="https://streamlinedapp.herokuapp.com/#/" target="_blank" class="button primary small fit">Live</a>
+											</div>
+											<div class="project-link">
+												<a href="https://github.com/leon-i/Streamlined" target="_blank" class="button small fit">Repo</a>
+											</div>
+										</div>
 									</li>
 								</ul>
 								<footer class="major">
 									<ul class="actions special">
-										<li><a href="generic.html" class="button">Learn More</a></li>
+										<li><a href="https://github.com/leon-i" target="_blank" class="icon brands fa-github alt big-icon"><span class="label">GitHub</span></a></li>
 									</ul>
 								</footer>
 							</section>
@@ -140,47 +184,38 @@
 							<section id="cta" class="main special">
 								<header class="major">
 									<h2>Contact</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+									<p>If you'd like to get in touch, send me a message!</p>
 								</header>
-								<footer class="major">
-									<ul class="actions special">
-										<li><a href="generic.html" class="button primary">Get Started</a></li>
-										<li><a href="generic.html" class="button">Learn More</a></li>
-									</ul>
-								</footer>
+								<form action="https://formspree.io/mqkykwrv" method="POST">
+									<div class="row gtr-uniform">
+										<div class="col-6 col-12-xsmall">
+											<input type="text" name="name" id="demo-name" value="" placeholder="Name" />
+										</div>
+										<div class="col-6 col-12-xsmall">
+											<input type="email" name="_replyto" id="demo-email" value="" placeholder="Email" />
+										</div>
+										<div class="col-12">
+											<textarea name="message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+										</div>
+										<div class="col-12">
+											<ul class="actions">
+												<li><input type="submit" value="Send Message" class="primary" /></li>
+												<li><input type="reset" value="Reset" /></li>
+											</ul>
+										</div>
+									</div>
+								</form>
 							</section>
 
 					</div>
 
 				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<h2>Aliquam sed mauris</h2>
-							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
-							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn More</a></li>
-							</ul>
-						</section>
-						<section>
-							<h2>Etiam feugiat</h2>
-							<dl class="alt">
-								<dt>Address</dt>
-								<dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
-								<dt>Phone</dt>
-								<dd>(000) 000-0000 x 0000</dd>
-								<dt>Email</dt>
-								<dd><a href="#">information@untitled.tld</a></dd>
-							</dl>
-							<ul class="icons">
-								<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
-							</ul>
-						</section>
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					<footer class="footer-personal flex">
+						<div class="footer-icons flex">
+							<a href="https://github.com/leon-i" target="_blank" class="icon brands fa-github alt"><span class="label">GitHub</span></a>
+							<a href="#" class="icon brands fa-linkedin alt"><span class="label">LinkedIn</span></a>
+						</div>
+						<p class="copyright">&copy; Isak Leon. Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>

@@ -99,11 +99,16 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
+		/* background-color: #935d8c;
 		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
+		/* background-image: linear-gradient(to left bottom, #2d3d4c, #334253, #3a485b, 
+		#414d62, #495369, #50586f, #575c75, #5f617b, #686782, #716c88, #7a728f, #837895); */
+		/* background-image: linear-gradient(to left bottom, #2d3d4c, #4a5368, #6b6984, #90809d, #b897b4); */
+		/* background-image: linear-gradient(to left bottom, #0f2027, #243542, #3f4b5f, #5f627b, #837895); */
+		background-image: linear-gradient(to left bottom, #0f2027, #2d3d4c, #545a71, #837895, #b897b4);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -121,6 +126,7 @@ input, select, textarea {
 
 	body {
 		background-color: #935d8c;
+		/* background-color: #2D3D4C; */
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -3783,3 +3789,92 @@ input, select, textarea {
 			}
 
 		}
+/* Personal */
+	.flex {
+		display: flex;
+	}
+
+	.nav-icon:first-of-type {
+		margin-right: 0.65em;
+	}
+
+	.nav-icon, .first-icon {
+		font-size: 28px;
+	}
+
+	.project-links {
+		flex-direction: column;
+		align-items: center;
+		list-style: none;
+	}
+
+	.project-link {
+		max-width: 140px;
+		min-width: 80px;
+	}
+
+	.project-link:first-of-type {
+		margin-bottom: 20px;
+	}
+
+	.skill-icon {
+		position: relative;
+		display: inline-block;
+		height: 55px;
+		font-size: 50px;
+		text-decoration: none;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		margin-top: 16px;
+		border-bottom: none;
+	}
+
+	.skill-icon-img {
+		position: relative;
+		display: inline-block;
+		height: 48px;
+		text-decoration: none;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		margin-top: 14.5px;
+		border-bottom: none;
+	}
+
+	.project-img {
+		height: 150px;
+		width: 290px;
+		border: 1px solid lightgray;
+		margin-bottom: 16px;
+	}
+
+	.very-big-icon {
+		font-size: 55px;
+		margin: 0 auto;
+	}
+
+	.big-icon {
+		font-size: 28px;
+	}
+
+	.backdrop-icon {
+		position: absolute;
+		font-size: 80px;
+		margin: 0 auto;
+	}
+
+	.footer-personal {
+		flex-direction: column;
+		align-items: center;
+		padding: 40px 0;
+	}
+
+	.footer-icons {
+		flex-direction: row;
+		margin-bottom: 40px;
+	}
+
+	.footer-icons a {
+		margin-right: 16px;
+	}
+
+	.footer-icons a:last-of-type {
+		margin-right: 0;
+	}

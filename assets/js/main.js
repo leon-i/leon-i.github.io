@@ -119,5 +119,18 @@
 		$('.scrolly').scrolly({
 			speed: 1000
 		});
+	
+	// gifs
+
+		$('.project-img').hover(
+			(e) => {
+				const name = e.target.alt.split('-')[0];
+				$(e.target).attr("src", `images/${name}.gif`);
+			},
+			(e) => {
+				const name = e.target.alt.split('-')[0];
+				$(e.target).attr("src", `images/${name}.jpg`);
+			}
+		);
 
 })(jQuery);

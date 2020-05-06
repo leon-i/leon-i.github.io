@@ -1,0 +1,16 @@
+<svg id="logo_1" xmlns="http://www.w3.org/2000/svg" width="115" height="115" viewBox="0 0 115 115">
+  <path id="Path_5" data-name="Path 5" d="M57.5,0A57.5,57.5,0,1,1,0,57.5,57.5,57.5,0,0,1,57.5,0Z" fill="#fff"/>
+  <g id="glasseslogo" transform="translate(17.5 34.902)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(6.712 17.222)" fill="none" stroke="#2d3d4c" stroke-width="4">
+      <circle cx="13.579" cy="13.579" r="13.579" stroke="none"/>
+      <circle cx="13.579" cy="13.579" r="11.579" fill="none"/>
+    </g>
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(45.637 17.222)" fill="none" stroke="#2d3d4c" stroke-width="4">
+      <circle cx="13.579" cy="13.579" r="13.579" stroke="none"/>
+      <circle cx="13.579" cy="13.579" r="11.579" fill="none"/>
+    </g>
+    <path id="Path_6" data-name="Path 6" d="M0,0V31.91" transform="matrix(0.966, -0.259, 0.259, 0.966, 0, 0)" fill="none" stroke="#2d3d4c" stroke-linecap="square" stroke-width="4"/>
+    <line id="Line_2" data-name="Line 2" y1="31.91" transform="matrix(0.966, 0.259, -0.259, 0.966, 79.359, 0)" fill="none" stroke="#2d3d4c" stroke-linecap="square" stroke-width="4"/>
+    <path id="Path_4" data-name="Path 4" d="M8.826,0H0L1.437,1.46S.43,2.2.826,2.837A2.068,2.068,0,0,1,0,4H8.826Z" transform="translate(37.716 30.801)" fill="#2d3d4c"/>
+  </g>
+</svg>

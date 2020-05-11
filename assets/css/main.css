@@ -2595,7 +2595,6 @@ input, select, textarea {
 
 					ul.actions:not(.fixed) li > * {
 						width: 100%;
-						max-width: 72px;
 					}
 
 					ul.actions:not(.fixed) li:first-child {
@@ -3887,4 +3886,14 @@ input, select, textarea {
 
 	.footer-icons a:last-of-type {
 		margin-right: 0;
+	}
+
+	@media screen and (max-width: 480px) {
+		.resume-btn {
+			max-width: 100px;
+		}
+
+		.big-icon {
+			max-width: 72px;
+		}
 	}

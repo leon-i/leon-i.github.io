@@ -3846,8 +3846,8 @@ input, select, textarea {
 	}
 
 	.project-img {
-		height: 180px;
-		width: 310px;
+		height: 165px;
+		width: 100%;
 		border: 1px solid lightgray;
 		margin-bottom: 16px;
 	}
@@ -3896,6 +3896,6 @@ input, select, textarea {
 		}
 
 		.project-img {
-			max-width: 290px;
+			height: 160px;
 		}
 	}
